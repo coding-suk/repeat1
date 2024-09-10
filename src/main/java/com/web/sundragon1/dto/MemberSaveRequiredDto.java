@@ -1,2 +1,10 @@
-package com.web.sundragon1.dto;public class MemberSaveRequiredDto {
+package com.web.sundragon1.dto;
+
+import lombok.Getter;
+
+@Getter
+public class MemberSaveRequiredDto {
+
+    private String name;
+
 }
